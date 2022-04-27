@@ -9,6 +9,7 @@ const dashboard: AppRouteModule = {
   component: LAYOUT,
   redirect: '/dashboard/analysis',
   meta: {
+    // 权重，体现在谁在前面谁在后面
     orderNo: 10,
     icon: 'ion:grid-outline',
     title: t('routes.dashboard.dashboard'),
